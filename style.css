@@ -99,26 +99,13 @@ a.secondary-link:hover {
     font-size: 32px;
     text-align: center;
   }
-}
-
-@media (max-width: 576px) {
   h1 {
     font-size: 48px;
+    line-height: 1.5;
   }
-}
-@media (max-width: 840px) {
-  h1 {
-    line-height: 1;
-    margin: 20px 0;
-  }
-}
-@media (max-width: 576px) {
   p {
     text-align: center;
   }
-}
-
-@media (max-width: 576px) {
   .project-link {
     display: block;
     text-align: center;
@@ -126,16 +113,9 @@ a.secondary-link:hover {
   }
 }
 
-@media (min-width: 576px) {
-  .col-sm-6 {
-    flex: 0 0 auto;
-    width: 50%;
-  }
-}
-
-@media (min-width: 576px) {
-  .col-sm-4 {
-    flex: 0 0 auto;
-    width: 33.3333333333%;
+@media (max-width: 840px) {
+  .long-title {
+    line-height: 1;
+    margin: 20px 0;
   }
 }
